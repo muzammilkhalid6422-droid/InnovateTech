@@ -1,0 +1,64 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FCFBFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+}
+.navbar .logo img {
+    width: 60px;
+    height: 13vh;
+}
+.navbar .logo h2 {
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #4f6df5, #a020f0, #2bb6c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-top: 28px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 10px;
+}
+.navbar ul li a:hover {
+    background-color: #F4F8FE;
+    border-radius: 40px;
+    color: blue;
+}
+.navbar .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #4f6df5, #a020f0, #2bb6c4);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.navbar .btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar .btn:hover {
+    transform: scale(1.05);
+}
+

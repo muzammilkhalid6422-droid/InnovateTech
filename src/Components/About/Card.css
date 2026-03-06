@@ -1,0 +1,76 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.container h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Cards container */
+.container .Box{
+    display: flex;
+    width: 98%;
+    gap: 35px;
+    margin: 10px;
+}
+
+/* Single card */
+.Boxs-items{
+    width: auto;
+    height: auto;
+    border: 1px solid #b0a5a5;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #f3f3f3;
+    transition: 0.3s;
+}
+.Boxs-items h4{
+     font-weight: 800;
+}
+
+/* Hover effect */
+.Boxs-items:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Icons style */
+.Boxs-items .icon-1 i,
+.Boxs-items .icon-2 i,
+.Boxs-items .icon-3 i,
+.Boxs-items .icon-4 i{
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Boxs-items .icon-1 i:hover,
+.Boxs-items .icon-2 i:hover,
+.Boxs-items .icon-3 i:hover,
+.Boxs-items .icon-4 i:hover{
+    transform: scale(1.2);
+}
+
+/* Icon colors */
+.Boxs-items .icon-1 i{
+    background: #00AFE4;
+}
+
+.Boxs-items .icon-2 i{
+    background: #FA2F85;
+}
+
+.Boxs-items .icon-3 i{
+    background: #9153FF;
+}
+
+.Boxs-items .icon-4 i{
+    background: #FB9100;
+}

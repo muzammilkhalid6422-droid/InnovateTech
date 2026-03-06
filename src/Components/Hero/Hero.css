@@ -1,0 +1,122 @@
+.card {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     width: 98%;
+
+}
+
+.card .left-child {
+     margin: 0 3%;
+}
+
+.card .left-child .vision {
+     border: 1px solid #bdf0d3;
+     border-radius: 40px;
+     padding: 10px;
+     background-color: #EFFDF5;
+     transform: scale(0.95);
+     width: 100px;
+     display: inline-flex;
+     gap: 10px;
+
+}
+
+.card .left-child h1 {
+     font-family: sans-serif;
+     font-weight: 700;
+}
+
+.card .left-child p {
+     font-family: sans-serif;
+     color: #4A5565;
+}
+
+.card .cards {
+     display: flex;
+     gap: 15px;
+     justify-content: flex-start;
+}
+
+.card .cards .card-items h2 {
+     font-family: sans-serif;
+     background: linear-gradient(90deg, #4f6df5, #a020f0, #2bb6c4);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-weight: 800;
+}
+
+.card .cards .card-items span {
+     color: #4A5565;
+     font-family: sans-serif;
+}
+
+.card .right-child {
+     display: flex;
+     gap: 15px;
+
+}
+
+.card .right-child .child-1,
+.child-2 {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.card .right-child .child-1 .card-1,
+.child-2 .card-2 {
+
+     color: white;
+     width: 280px;
+     height: 34vh;
+     border-radius: 25px;
+     font-family: sans-serif;
+     position: relative;
+     transition: 0.3s;
+
+
+}
+
+.card .right-child .child-1 .card-2,
+.child-2 .card-1 {
+
+     padding: 40px;
+     width: 200px;
+     height: 28vh;
+     border-radius: 25px;
+     color: white;
+     position: relative;
+     font-family: sans-serif;
+     transition: 0.3s;
+}
+.card .right-child .child-2{
+     margin-top: 40px;
+}
+
+.card-1 .content,
+.card-2 .content {
+     position: absolute;
+     left: 15px;
+     bottom: 15px;
+
+}
+
+.card .right-child .child-1 .card-1 {
+     background-color: #0096F6;
+}
+
+.card .right-child .child-1 .card-2 {
+     background:linear-gradient(#CB49D9 )
+}
+
+.card .right-child .child-2 .card-1 {
+     background-color: #FA9B01;
+}
+
+.card .right-child .child-2 .card-2 {
+     background-color: #00C18B;
+}
+.card .right-child  .card-1:hover ,.card-2:hover{
+     transform: scale(1.05);
+}
