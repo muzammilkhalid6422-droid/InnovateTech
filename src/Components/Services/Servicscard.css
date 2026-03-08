@@ -1,0 +1,89 @@
+.serviccard {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+}
+.service-items {
+
+     width: 26%;
+     height: auto;
+     border: 1px solid #FFFFFF;
+     border-radius: 20px;
+     padding: 30px;
+     font-family: sans-serif;
+     font-size: 20px;
+     background: #FFFFFF;
+     transition: 0.3s;
+     margin: 10px;
+}
+.service-items h4 {
+     font-weight: 700;
+}
+.service-items:hover {
+     transform: translateY(-8px) scale(1.05);
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.service-items .service-icon-1,
+.service-items .service-icon-2,
+.service-items .service-icon-3,
+.service-items .service-icon-4,
+.service-items .service-icon-5 {
+     color: white;
+     padding: 10px;
+     font-size: 40px;
+     border-radius: 13px;
+     transition: 0.5s;
+     width: 50px;
+     text-align: center;
+}
+.service-items .service-icon-1 {
+     background-color: #1B8CFE;
+}
+.service-items .service-icon-2 {
+     background-color: #BA4AF4;
+}
+.service-items .service-icon-3 {
+     background-color: #A04DFF;
+}
+.service-items .service-icon-4 {
+     background-color: #FC2A73;
+}
+.service-items .service-icon-5 {
+     background-color: #00C285;
+}
+.service-items .service-icon-1 i,
+.service-items .service-icon-2 i,
+.service-items .service-icon-3 i,
+.service-items .service-icon-4 i,
+.service-items .service-icon-5 i{
+ transition: 0.3s;
+}
+.service-items .service-icon-1 i:hover,
+.service-items .service-icon-2 i:hover,
+.service-items .service-icon-3 i:hover,
+.service-items .service-icon-4 i:hover,
+.service-items .service-icon-5 i:hover {
+     transform: scale(1.2);
+}
+.serviccard .service-items ul {
+     color: blue;
+}
+.serviccard .service-items p {
+     color: #4A5565;
+     font-size: 17px;
+}
+.serviccard .service-items li p {
+     font-size: 15px;
+}
+.serviccard .service-items .btn {
+     color: blue;
+     transition: 0.3s;
+}
+.serviccard .service-items .btn:hover {
+     transform: scale(1.05);
+
+}
+.serviccard .service-items .btn i {
+     margin-left: 5px;
+     margin-top: 10px;
+}

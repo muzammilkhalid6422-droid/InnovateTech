@@ -1,0 +1,32 @@
+.projects{
+      background: linear-gradient(90deg, #4f6df5, #a020f0, #2bb6c4);
+      text-align: center;
+      padding: 40px;
+      width: 86%;
+      margin: 0 auto;
+      margin-top: 50px;
+      border-radius: 20px;
+      color: white;
+      font-family: sans-serif;
+
+}
+.projects .project .text-project{
+     font-weight: 700;
+     font-size: 35px;
+}
+.projects .project .para-project{
+     font-size: 22px;
+}
+.projects .btn{
+     border-radius: 10px;
+     background-color: white;
+     color: blue;
+     padding: 15px;
+     width:190px;
+     margin: 0 auto;
+     transition: 0.3s;
+
+}
+.projects .btn:hover{
+     transform: scale(1.05);
+}
