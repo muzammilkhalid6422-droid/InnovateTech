@@ -7,6 +7,7 @@ import Card from './Components/About/Card'
 import Services from './Components/Services/Services'
 import Servicecard from './Components/Services/Servicecard'
 import Project from './Components/Project/Project'
+import Casestudy from './Components/CaseStudy/Casestudy'
 
 
 
@@ -22,6 +23,7 @@ export default function App() {
       <Services/>
       <Servicecard/>
       <Project/>
+      <Casestudy/>
       
 
     
